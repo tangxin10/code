@@ -1,0 +1,3 @@
+import c
+int qindex = Request["index"] == null ? 0 : int.Parse(Request["index"].ToString().Trim());
+                    data = queryOneChartData(id,qindex);
